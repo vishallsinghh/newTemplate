@@ -202,3 +202,13 @@ transform: translateY(-50%) rotate(90deg); -webkit-transform: translateY(-50%) r
 .img-side.img-left {left: 0;}
 .img-side {padding: 0; position: absolute!important; top: 0px; height: 100%; overflow: hidden; z-index: 9;}
 .img-side .owl-carousel, .img-side .owl-stage-outer, .img-side .owl-stage, .img-side .owl-stage, .img-side .owl-item, .img-side .owl-item .item{height: 100%}
+
+/*Custom CSS*/
+@media screen and (max-width: 480px){
+    .img-phone{
+        display: none !important;
+    }
+    .owl-nav{
+        display: none !important;
+    }
+}
